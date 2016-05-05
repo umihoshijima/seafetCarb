@@ -1,9 +1,13 @@
-Package: seafetCarb
+Package: seafetcalc
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Calculate pH From Electrode Voltages
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R:  person("Umihiko", "Hoshijima", email = "umihoshijima@gmail.com",
+                  role = c('aut', 'cre'))
+Description: This package calculates the in-situ pH time series based on a
+    series of calibration sammples taken during deployment to constrain the
+    Nernst relationship between electrode voltage and seawater pH.
+License: GPL-3
 LazyData: TRUE
+
+Imports: seacarb
